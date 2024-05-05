@@ -1,0 +1,18 @@
+<suite name = "CrossBrowser">
+<test name = "ChromeTest">
+<parameter name = "Browser" value="Chrome">
+</parameter>
+<classes>
+<class name="apr5.CrossbrowserTesting">
+</class>
+</classes>
+</test>
+<test name = "FirefoxTest">
+<parameter name = "Browser" value="firefox">
+</parameter>
+<classes>
+<class name="apr5.CrossbrowserTesting">
+</class>
+</classes>
+</test>
+</suite>

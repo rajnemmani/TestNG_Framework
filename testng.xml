@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="apr2.FirstClass"/>
+      <class name="apr3.InvocationCountTestNgClass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+    <classes>
+      
+      <class name="apr3.BeforeTestNGClass"/>
+      <class name="apr3.BeforeMethodTestNGClass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+    <classes>
+      
+      <class name="apr3.PriorityIgnoreTestNgClass"/>
+      <class name="apr3.IgnoreTcTestNGClass"/>
+      <class name="apr3.PriorityTestNGClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<suite name = "mrngBatch">
+<test name = "testngReports">
+<classes>
+<class name = "apr3.BeforeMethodTestNGClass">
+</class>
+<class name = "apr3.BeforeTestNGClass">
+</class>
+<class name = "apr3.IgnoreTcTestNGClass">
+</class>
+<class name = "apr3.InvocationCountTestNgClass">
+</class>
+<class name = "apr3.PriorityIgnoreTestNgClass">
+</class>
+<class name = "apr3.PriorityTestNGClass">
+</class>
+</classes>
+</test>
+</suite>
